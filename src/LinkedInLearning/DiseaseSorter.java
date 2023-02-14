@@ -19,6 +19,8 @@ public class DiseaseSorter {
         for (Disease disease : diseases) {
             if (disease.isCurable()) {
                 System.out.println(disease.getName());
+            } else {
+                System.out.println("cute");
             }
         }
 
